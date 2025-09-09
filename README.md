@@ -1,5 +1,27 @@
 # Mindora
 
+<div align="left">
+    <a target='_blank'>Mengxi Xiao<sup>1</sup></span>&emsp;
+    <a target='_blank'>Kailai Yang<sup>2</sup></span>&emsp;
+    <a target='_blank'>Pengde Zhao<sup>3</sup></span>&emsp;
+    <a target='_blank'>Enze Zhang<sup>1</sup></a>&emsp;
+    <a target='_blank'>Ziyan Kuang<sup>4</sup></a>&emsp;
+    <a target='_blank'>Zhiwei Liu<sup>2</sup></a>&emsp;
+    <a target='_blank'>Weiguang Han<sup>1</sup></a>&emsp;
+    <a target='_blank'>Min Peng<sup>1</sup></a>&emsp;
+    <a target='_blank'>Qianqian Xie<sup>1*</sup></a>&emsp;
+    <a target='_blank'>Sophia Ananiadou<sup>2</sup></a>
+</div>
+
+<br />
+<div align="left">
+    <sup>1</sup>School of Artificial Intelligence, Wuhan University&emsp;
+    <sup>2</sup>The University of Manchester&emsp;
+    <sup>3</sup>School of Computer Science, Wuhan University&emsp;
+    <sup>4</sup>Jiangxi Normal University
+</div>
+<br />
+
 Psychological Reasoning LLMs.
 
 \[ English | [简体中文](README_zh.md) \]
@@ -13,6 +35,15 @@ Psychological Reasoning LLMs.
 Mindora is a family of psychological reasoning LLMs designed for psychology-related tasks that demand strong reasoning abilities, including question answering, therapy plan generation, cognitive error analysis, and misinformation detection. We further evaluated the generalization ability of Mindora on unseen tasks such as psychiatric diagnosis and observed remarkable results.
 
 Our base model is [Qwen3-8B](https://www.modelscope.cn/models/Qwen/Qwen3-8B), and we obtained it through SFT and GRPO.
+
+## Results
+
+|             | MHQA   | MedQA_en | MedMCQA | PubMedQA | AnnoMI | Therapist Q&A | DepSign | swmh   | t-sid  | misinfo |
+| ----------- | ------ | -------- | ------- | -------- | ------ | ------------- | ------- | ------ | ------ | ------- |
+| GPT-4o      | 0.4531 | 0.6138   | 0.7936  | 0.6949   | 0.3358 | 0.4543        | 0.4064  | 0.75   | 0.7114 | 0.6894  |
+| Deepseek-r1 | 0.4984 | 0.8608   | 0.8988  | 0.7256   | 0.2020 | 0.4472        | 0.4085  | 0.7624 | 0.7218 | 0.5689  |
+| Qwen3-8b    | 0.4009 | 0.5824   | 0.7927  | 0.6899   | 0.1489 | 0.4057        | 0.6395  | 0.7358 | 0.7515 | 0.4773  |
+| Mindora-rl2 | 0.5996 | 0.7839   | 0.8593  | 0.8212   | 0.3803 | 0.4566        | 0.524   | 0.7715 | 0.814  | 0.5681  |
 
 
 
