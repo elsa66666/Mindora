@@ -6,7 +6,7 @@ Psychological Reasoning LLMs.
 
 ## Latest News
 
-✨[2025.9.4] We released the first model of our family, Mindora-rl2. For model downloads, please click here: [elsashaw/mindora-rl2](https://www.modelscope.cn/models/elsashaw/mindora-rl2/summary)
+✨[2025.9.4] We released the first model of our family, Mindora-rl2. For downloading the model checkpoints, please click here: [elsashaw/mindora-rl2](https://www.modelscope.cn/models/elsashaw/mindora-rl2/summary)
 
 ## Introduction
 
